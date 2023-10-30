@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap');
 html {
     box-sizing: border-box;
@@ -154,4 +155,162 @@ font-family: 'Montserrat' bold;
 .numero i {
 
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap');
+html {
+    box-sizing: border-box;
+    text-align: center;
+}
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #393d41;
+    line-height: 1.65;
+    height: 1.2rem;
+}
+#logo {
+    background-color: black;  
+}
+#logo img {
+    max-width: 50%;
+    text-align: center;
+}
+.corso {
+    background-image: url(../assets/images/banner.jpg);
+    background-size: cover;
+    background-position: certer top;
+    background-repeat: no-repeat;
+    max-height: 100%;
+    max-width: 100%
+}
+.corso h1 {
+  margin: 0%;
+  font-family: 'Montserrat' bold;
+  color: #25a2c3
+}
+button {
+    background-color: #f04c2f;
+    position: 0;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 30px;
+    min-width: 120px;
+    font-family: 'Montserrat' bold;
+}
+.tutti h3 {
+    margin: 0%;
+  font-family: 'Montserrat' bold;
+  color: #25a2c3
+}
+.tutti p {
+    font-family: 'Montserrat';
+}
+.image1 img {
+border-radius: 80%;
+}
+.sceglie h3 {
+    margin: 0%;
+    font-family: 'Montserrat' bold;
+    color: #25a2c3  
+}
+.sceglie p {
+    font-family: 'Montserrat';
+}
+#orange {   
+    background-color: #e22d0e;
+    color: white;
+}
+.quote {
+    padding-bottom: 40px;
+}
+.quote h2 {
+padding-top: 50px;
+font-family: 'Montserrat' bold;
+}
+.quote blockquote {
+    font-family: 'Montserrat' italic;
+    margin-bottom: 2px;
+}
+.quote p {
+    margin: 0%;
+    padding-bottom:5px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: normal;
+}
+#portatile {
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.096);
+    max-width: 100%;
+    margin: auto;
+}
+.portatile1 img {
+    margin: 0%;
+    max-height: 100%;
+    max-width: 100%
+}
+.tuo h3{
+    margin: 0%;
+    padding-top: 20px;
+    font-family: 'Montserrat' bold;
+    color: #25a2c3  
+}
+.tuo p {
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+#close {
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.096);
+    max-width: 100%;
+    margin: auto;
+}
+.close1 img {
+    margin: 0%;
+    max-height: 100%;
+    max-width: 100%
+}
+.impara h3 {
+    margin: 0%;
+    padding-top: 20px;
+    font-family: 'Montserrat' bold;
+    color: #25a2c3  
+}
+.impara p {
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#tavolo {
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.096);
+    max-width: 100%;
+    margin: auto;
+}
+.tavolo1 img {
+    margin: 0%;
+    max-height: 100%;
+    max-width: 100%
+}
+.lavora h3 {
+    margin: 0%;
+    padding-top: 20px;
+    font-family: 'Montserrat' bold;
+    color: #25a2c3  
+}
+.lavora p {
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#footer {
+    background-color: #25a2c3;
+}
+.contatti h2 {
+    color: white;
+}
+.numero i {
+
+}
+>>>>>>> e9068ddfc12737cb40a917bfb6d62d8c4c3b5965
 /*A questo punto si è buggato e non mi fa vedere le modifiche nel footer.
