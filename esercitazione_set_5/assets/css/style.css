@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300;400&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --reach-tabs: 1;
+    --reach-menu-button: 1;
+}
+
+.banner {
+    background-color: #ffc017;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding-left: 10%;
+}
+
+.logo {
+    padding-right: 358px;
+    margin-top: 22px;
+    margin-bottom: -7px;
+}
+
+ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 22px;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+.navLink {
+    color: white;
+}
+
+.started {
+    border-radius: 21px;
+    border: none;
+    padding: 12px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #202020;
+    color: white;
+}
+
+header {
+    background-color: #ffc017;
+    padding: 1px;
+    border-bottom: 1px solid black;
+}
+
+.header-content {
+    display: inline-flex;
+    float: inline-end;
+}
+.stay {
+    font-size: 106px;
+    font-family: 'Spectral', serif;
+    font-weight: 400;
+    letter-spacing: -8px;
+    margin-top: 128px;
+    margin-bottom: 0px;
+    padding-left: 10%;
+    display: inline-block
+}
+.sottoh1 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 23px;
+    display: flex;
+    margin-bottom: 0;
+    padding-left: 10%;
+    max-width: 450px;
+}
+.reading {
+    border-radius: 21px;
+    border: none;
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 66px 125px;
+    cursor: pointer;
+    margin-bottom: 75px;
+}
+
+svg {
+    max-width: 1200;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.centrale {
+  display: inline-flex;
+  padding-left: 10%;
+  padding-top: 25px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 30px;
+}
+.tom, .hayes, .frank, .andrade, .wesley {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    border-radius: 50%;
+    width: 20px
+}
+.nomi {
+    display: contents;
+    font-weight: 400 bold;
+}
+.colored-word {
+    color: gray;
+}
+.article {
+    font-size: 17px;
+    margin: 10px 0;
+    max-width: 350px;
+}
+
+.data, .min {
+    display: inline;
+    margin-top: 5px;
+    color: gray;
+    font-size: 10px;
+}
+.traIdue {
+    color: rgb(143, 143, 143);
+}
+
+.containerDue {
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10%;
+}
+.robert {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    border-radius: 50%;
+    width: 20px
+}
+.bambini {
+    width: 200px;
+}
+.titleContainerDue {
+    font-weight: 400 bold;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+.sottoh4 {
+    margin: 0;
+    max-width: 450px;
+    color: rgb(92, 92, 92);
+    font-size: 14px;
+    margin-bottom: 4px;
+    float: left;
+}
