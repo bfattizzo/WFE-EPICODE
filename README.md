@@ -18,6 +18,7 @@ DURATA: 480 ore (3 mesi) di formazione teorico-pratica (con docente e tutor dedi
 - Collegare il front-end al back-end attraverso i web service; 
 - Gestire un progetto con metodologia Agile e lavorare efficacemente in team.
 
-<img src"https://github.com/bfattizzo/WFE-EPICODE/assets/60934205/e4f693fc-d642-416d-862d-a8f05f2050c6" width="50">
+![image](https://github.com/bfattizzo/WFE-EPICODE/assets/60934205/247b5f1e-c763-42c0-94c3-23e3b9be705c = 100x50)
+
 
 
