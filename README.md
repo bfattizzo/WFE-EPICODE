@@ -17,3 +17,5 @@ DURATA: 480 ore (3 mesi) di formazione teorico-pratica (con docente e tutor dedi
 - Creare applicazioni Web complesse; 
 - Collegare il front-end al back-end attraverso i web service; 
 - Gestire un progetto con metodologia Agile e lavorare efficacemente in team.
+
+![alt text]([http://url/to/img.png](https://www.w3.org/html/logo/)https://www.w3.org/html/logo/)
