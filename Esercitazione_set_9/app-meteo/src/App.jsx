@@ -14,7 +14,7 @@ function App() {
   const [city, setCity] = useState('');
 
   const search = async () => {
-    //const element = document.getElementsByClassName("cityInput");
+  const element = document.getElementsByClassName("cityInput");
     if (element[0].value === "") {
       return 0;
     }
