@@ -1,18 +1,31 @@
 .container {
     width: 414px;
-    height: 812px;
+    height: 800px;
     margin: auto;
-    margin-top: 30px;
+    padding: 0;
+    margin-top: 20px;
     border-radius: 12px;
-    background: rgb(0,2,40);
-background: linear-gradient(133deg, rgba(0,2,40,1) 0%, rgba(0,23,117,1) 20%, rgba(59,41,154,1) 46%, rgba(82,0,161,1) 73%);
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.233);
+}
+
+.container:before {
+    content: '';
+    background-image: url(../src/assets/wp4763952-aesthetic-sky-wallpapers.jpg);
+    border-radius: 12px;
+    position: absolute;
+    width: 414px;
+    height: 800px;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .searchBar {
     display: flex;
     justify-content: center;
     gap: 14px; 
-    padding-top: 80px;
+    padding-top: 90px;
 }
 
 .searchBar input {
@@ -32,43 +45,45 @@ background: linear-gradient(133deg, rgba(0,2,40,1) 0%, rgba(0,23,117,1) 20%, rgb
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 38px;
-    height: 38px;
-    background: rgba(0,23,117,1);
+    width: 40px;
+    height: 30px;
+    background: #8d5473;
     border-radius: 12px;
     cursor: pointer;
 }
 
 .weather-image {
-    margin-top: 40px;
+    margin-top: 90px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
 }
 
 .weather-temp {
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
     display: flex;
     justify-content: center;
-    font-size: 90px;
-    color: white;
+    font-size: 85px;
+    color: rgb(255, 255, 255);
     font-weight: 400;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .weather-location {
     display: flex;
     justify-content: center;
-    font-size: 60px;
-    color: white;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
     font-weight: 400;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .data-container {
-    margin-top: 80px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .element {
@@ -79,8 +94,8 @@ background: linear-gradient(133deg, rgba(0,2,40,1) 0%, rgba(0,23,117,1) 20%, rgb
 }
 
 .data {
-    color: white;
-    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
     font-weight: 400;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }

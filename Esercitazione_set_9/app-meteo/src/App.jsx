@@ -6,6 +6,7 @@ import humidity_icon from "../src/assets/humidity.png";
 import rain_icon from "../src/assets/rain.png";
 import snow_icon from "../src/assets/snow.png";
 import wind_icon from "../src/assets/wind.png";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 
 function App() {
@@ -25,12 +26,12 @@ function App() {
 
     const humidity = document.getElementsByClassName("humidity-percent");
     const wind = document.getElementsByClassName("wind-rate");
-    const temperature = document.getElementsByClassName("temperature-temp");
-    const location = document.getElementsByClassName("location-tempo");
+    const temperature = document.getElementsByClassName("weather-temp");
+    const location = document.getElementsByClassName("weather-location");
 
     humidity[0].innerHTML = data.main.humidity + " %";
     wind[0].innerHTML = data.wind.speed + " km/h";
-    temperature[0].innerHTML = Math.floor(data.main.temp) + " °C";
+    temperature[0].innerHTML = Math.floor(data.main.temp) + "°C";
     location[0].innerHTML = data.name;
 
     if (data.weather[0].icon === "01d" || data.weather[0].icon === "01n") {
@@ -74,7 +75,7 @@ function App() {
     <>
       <div className="container">
         <div className="searchBar">
-          <input type="text" className="cityInput" placeholder="Search" value={city} onChange={(e) => setCity(e.target.value)}/>
+          <input type="text" className="cityInput" placeholder="Cerca una città" value={city} onChange={(e) => setCity(e.target.value)}/>
           <div className="search-icon" onClick={search}>
             <img
               src="../src/assets/search-svgrepo-com.svg"
@@ -85,10 +86,10 @@ function App() {
           </div>
         </div>
         <div className="weather-image">
-          <img src="../src/assets/cloud.png" alt="cambio icona" />
-        </div>
+          <img src={wicon} alt="cambio icona" width={'170px'}/>
         <div className="weather-temp">4°C</div>
-        <div className="weather-location">Milano</div>
+        </div>
+        <div className="weather-location text-center">Milano</div>
         <div className="data-container">
           <div className="element">
             <img src={humidity_icon} alt="icone" className="icon"/>
@@ -100,7 +101,7 @@ function App() {
           <div className="element">
             <img src={wind_icon} alt="icone" className="icon"/>
             <div className="data">
-              <div className="humidity-percent">18 km/h</div>
+              <div className="wind-rate">18 km/h</div>
               <div className="text">Wind Speed</div>
             </div>
           </div>
